@@ -22,3 +22,5 @@ match (product1)-[r:PART_OF]->(category1) // brhskw thn sxesh
 match (category2:Category {categoryName: "Laptops"}) // brhskw kathgoria Laptops
 create (product1)-[rNew:PART_OF]->(category2) // thn ftiaxnw
 delete r // diagrafw thn palia sxesh
+
+test
